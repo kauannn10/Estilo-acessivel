@@ -1,0 +1,108 @@
+header {
+    background-color: #cccccc;
+}
+
+.caixa {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+nav {
+    position: absolute;
+    top: 129px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #b30000;
+    text-decoration: underline;
+    
+}
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.Enviar{
+    width: 40%;
+    padding: 15px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+    background: black;
+}
+
+.Enviar:hover{
+    background: black;
+       transform: (70deg) scale(1.2);
+       transform:scale(1.1);
+    
+
+}
+
+.mapa{
+    position: relative;
+    left: 25%;
+}
+
+
+
+.rodape{
+background-color: #cccccc;
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+.logo{
+    width: 150px;
+}
+
+footer{
+    text-align: center;
+    background-image: url(/img/bg.jpg);
+    
+}
+
+footer p{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+   
+
+}
